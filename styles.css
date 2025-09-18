@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*CSS RESET. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: #807E78;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+.container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 300px;
+  margin-top: 20rem;
+  margin-left: 50rem;
+}
+
+input, button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  background: #8091a3;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
